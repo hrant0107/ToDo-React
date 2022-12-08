@@ -1,0 +1,37 @@
+.todoItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnBlock {
+  display: flex;
+  gap: 5px;
+}
+
+.clearBtn {
+  width: 30px;
+  background-color: rgb(188, 73, 73);
+  color: #ffff;
+}
+.chechBTn {
+  width: 30px;
+  background-color: rgb(72, 157, 72);
+  color: #ffff;
+}
+
+.text {
+  font-size: 30px;
+  color: black;
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: green;
+}
+
+.unChecked {
+  text-decoration: none;
+  opacity: 1;
+}

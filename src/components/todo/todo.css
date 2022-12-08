@@ -1,0 +1,39 @@
+.todo {
+  /* height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  max-width: 550px;
+  width: 100%;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  gap: 10px;
+}
+
+.todobtn {
+  display: flex;
+  justify-content: right;
+
+  margin-top: 10px;
+}
+.TodoBtnClearAll {
+  width: 125px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(188, 73, 73);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.TodoBtnClearAll:hover {
+  font-size: 22px;
+  background: rgb(236, 24, 24);
+}

@@ -1,0 +1,26 @@
+.todoForm {
+  display: flex;
+  gap: 20px;
+  height: 50px;
+  width: 100%;
+}
+.input {
+  padding: 6px;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  font-size: 22px;
+}
+.formBtn {
+  background: green;
+  border-radius: 6px;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  width: 50px;
+  transition: all 0.3s ease;
+}
+
+.formBtn:hover {
+  width: 70px;
+}

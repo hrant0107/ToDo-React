@@ -1,0 +1,21 @@
+/* .completed__block {
+  display: flex;
+  gap: 5px;
+} */
+.select {
+  width: 125px;
+  cursor: pointer;
+}
+
+.css-1xc3v61-indicatorContainer {
+  padding: 0;
+}
+
+.css-1xc3v61-indicatorContainer {
+  color: red;
+}
+
+.css-13cymwt-control {
+  height: 50px;
+  border-radius: 8px;
+}
